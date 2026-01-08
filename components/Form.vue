@@ -2,8 +2,8 @@
   <div class="isolate bg-white px-6 py-10 sm:py-10 lg:px-8 font-serif text-gray-600 min-h-dvh">
     <form action="#" @submit.prevent="sendEmail" method="POST" class="mx-auto mt-10 max-w-xl sm:mt-16 font-mono">
       <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Comunidad Arboleda</h2>
-        <p class="text-lg/8 text-gray-600 mb-10">Ricardo Cumming 343</p>
+        <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Comunidad</h2>
+        <p class="text-lg/8 text-gray-600 mb-10">Calle Falsa 123</p>
 
         <!-- 
         //-    DATOS                       
