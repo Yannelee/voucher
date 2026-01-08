@@ -28,6 +28,7 @@ export const useVecineStore = defineStore('vecineStore', {
         this.loading = true
         const {data} = useAsyncData('data', async ()=>{
           const querySnapshot = await getDocs(collection($db, "vecinos"))
+          console.log('log1', querySnapshot)
           if(querySnapshot){
             querySnapshot.forEach((doc) => {
              this.vecinos = querySnapshot.docs.map(doc => ({id:doc.id, ...doc.data()}))
