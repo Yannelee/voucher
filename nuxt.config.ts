@@ -8,5 +8,8 @@ export default defineNuxtConfig({
       title:'Gasto Común',
       titleTemplate:'%s | ARBOLEDA'
     }
-  }, 
+  },
+  experimental: {
+    externalVue: false,
+  },
 })
